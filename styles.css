@@ -1,0 +1,45 @@
+body {
+    width: 50%;
+    border: 5px solid rgba(255, 166, 0, 0.821);
+    background-color: rgb(229, 229, 191);
+    position: absolute;
+    margin-bottom: 10px;
+    
+}
+img {
+    inline-size: 35%;
+    vertical-align: middle;
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+h1 {
+    font-style: italic;
+    text-align: center;
+}
+section > p {
+    vertical-align: middle;
+    display: inline;
+}
+p {
+    margin-left: 10%;
+    
+}
+
+h2 {
+    text-align: center;
+}
+.header, .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu, .divider, .social {
+    padding: 3px
+}
+.divider {
+    width: 0,000001px;
+    height: 10px;
+    background-color: black;
+}
+
